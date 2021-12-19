@@ -1,38 +1,84 @@
 ---
-title: My homepage
-layout: 'base.njk'
+
+title: Home
+layout: "/src/_includes/base.njk"
+
 ---
-      
-<section class="hero">
-  <div class="container flow">
-      <div class="hero__content flow">
-        <h1 class="section-title">Welcome to my blog!</h1>
-        <p>I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
-        <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
-        <div class="flex-group">
-          <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
-          <a href="./blog" class="btn btn--neutral">Most recent articles</a>
-        </div>
-      </div>
-      <div>
-        <img src="//unsplash.it/510" alt="" class="hero__image">
-      </div>
-  </div>
-</section>
-
-<section id="featured-articles" class="featured-articles">
-  <div class="container flow">
-    <h2 class="section-title text-center ">Featured articles</h2>
-    <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
-    <ul role="list" class="articles__list flow">
-
-      {%- for post in collections.featured | reverse -%}
-        {% include 'article-snippet.njk' %}
-      {%- endfor %} 
-    
-    </ul>
-  </div>
-</section> 
-
-
-
+          <section id="content" class="s-content">
+            {% include './src/_include/hero.njk' %}
+              <a href="#bricks" class="hero__scroll-down smoothscroll">
+                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.25 6.75L4.75 12L10.25 17.25"></path>
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.25 12H5"></path>
+                </svg>
+                <span>Scroll</span>
+              </a>
+            </div>
+            <div id="bricks" class="bricks">
+              <div class="masonry">
+                <div class="bricks-wrapper" data-animate-block>
+                  <div class="grid-sizer"></div>
+            {%-  for post in collections.post | reverse  -%}
+                 <article class="brick entry" data-animate-el>
+                    <div class="entry__thumb">
+                      <a class="thumb-link">
+                        <img src="{{ post.data.thumbnail }}" alt="">
+                      </a>
+                    </div>
+                    <div class="entry__text">
+                      <div class="entry__header">
+                        <div class="entry__meta">
+                          <span class="cat-links">
+                            <a >{{ post.data.category }}</a>
+                          </span>
+                          <span class="byline">
+                            By:
+                            <a href="#0">{{ post.data.author }} on {{ post.date | postDate }}</a>
+                          </span>
+                        </div>
+                        <h1 class="entry__title"><a href="{{ post.url }} ">{{ post.data.title }}</a></h1>
+                      </div>
+                      <div class="entry__excerpt">
+                        <p>
+                            {{ post.data.desc }}
+                        </p>
+                      </div>
+                      <a class="entry__more-link" href="{{ post.url }}" >Read More</a>
+                    </div>
+                  </article>
+            {%- endfor -%}
+                </div>
+              </div>
+              <div class="row pagination">
+                <div class="column lg-12">
+                  <nav class="pgn">
+                    <ul>
+                      <li>
+                        <a class="pgn__prev" href="#0">
+                          <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.25 6.75L4.75 12L10.25 17.25"></path>
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.25 12H5"></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li><a class="pgn__num current" href="#bricks">1</a></li>
+                      <li><a class="pgn__num" href="#0" >2</a></li>
+                      <li><a class="pgn__num" href="#0">3</a></li>
+                      <li><a class="pgn__num" href="#0">4</a></li>
+                      <li><a class="pgn__num" href="#0">5</a></li>
+                      <li><span class="pgn__num dots">…</span></li>
+                      <li><a class="pgn__num" href="#0">8</a></li>
+                      <li>
+                        <a class="pgn__next" href="#0">
+                          <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </section>
