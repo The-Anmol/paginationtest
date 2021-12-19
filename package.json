@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevin-powell/11ty-blog-site.git"
+    "url": "git+https://github.com/anmolkilla/kpcopy.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevin-powell/11ty-blog-site/issues"
+    "url": "https://github.com/anmolkilla"
   },
-  "homepage": "https://github.com/kevin-powell/11ty-blog-site#readme",
+  "homepage": "https://github.com/anmolkilla#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
   }
