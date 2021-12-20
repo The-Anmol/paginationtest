@@ -13,23 +13,11 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
-      - { label: "Category" ,
-          name: "category" ,
-          widget: "select" ,
-          default: ["Select Category"] ,
-          multiple: true ,
-          max: 5 ,
-          options: 
-          - { label: "Select Category" value:"" }
-          - { label: "Fashion",  value: "fashion" } 
-          - { label: "Gaming", value: "gaminy" } 
-          - { label: "Health", value: "health" }
-          - { label: "Music",  value: "music" } 
-          - { label: "Movie", value: "movie" } 
-          - { label: "News", value: "news" }
-          - { label: "Personal Development",  value: "personal-dev" }
-          - { label: "Technology", value: "tech" }
-          - { label: "Travelling", value: "travelling" },
+      - { label: "Category",
+          name: "category",
+          widget: "select"
+          options: ["Fashion","Gaming","Health","Music","Movie","News","Personal Devlopment", "Technology", "Travelling"]
+        }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Featured Image", name: "image", widget: "image" }
