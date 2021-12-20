@@ -18,6 +18,7 @@ collections:
           widget: "select",
           default: ["Select Category"],
           multiple: true ,
+          max: 5 ,
           options: 
           - { label: "Select Category" value:"" }
           - { label: "Fashion",  value: "fashion" } 
