@@ -14,9 +14,9 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Category",
-          name: "category",
-          widget: "select"
-          options: ["Fashion","Gaming","Health","Music","Movie","News","Personal Devlopment", "Technology", "Travelling"]
+          name: "category" ,
+          widget: "select" ,
+          options: ["Fashion","Gaming","Health","Music","Movie","News","Personal Devlopment", "Technology", "Travelling"] ,
         }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
