@@ -21,7 +21,7 @@ layout: "base.njk"
                  <article class="brick entry" data-animate-el>
                     <div class="entry__thumb">
                       <a class="thumb-link">
-                        <img src="{{ post.data.image }}" alt="">
+                        <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
                       </a>
                     </div>
                     <div class="entry__text">
@@ -39,7 +39,7 @@ layout: "base.njk"
                       </div>
                       <div class="entry__excerpt">
                         <p>
-                            {{ post.data.desc }}
+                            {{ post.data.description }}
                         </p>
                       </div>
                       <a class="entry__more-link" href="{{ post.url }}" >Read More</a>
