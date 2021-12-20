@@ -15,7 +15,7 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Category",
           name: "category",
-          widget: "select"
+          widget: "select",
           options: ["Fashion","Gaming","Health","Music","Movie","News","Personal Devlopment", "Technology", "Travelling"]
         }
       - { label: "Date", name: "date", widget: "datetime" }
