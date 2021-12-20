@@ -18,6 +18,7 @@ layout: "base.njk"
               <div class="masonry">
                 <div class="bricks-wrapper" data-animate-block>
                   <div class="grid-sizer"></div>
+                 for post in collections.post | reverse 
             {%-  for post in collections.post | reverse  -%}
                  <article class="brick entry" data-animate-el>
                     <div class="entry__thumb">
