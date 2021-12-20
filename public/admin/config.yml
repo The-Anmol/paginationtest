@@ -13,10 +13,10 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
-      - { label: "Category",
-          name: "category",
-          widget: "select",
-          default: ["Select Category"],
+      - { label: "Category" ,
+          name: "category" ,
+          widget: "select" ,
+          default: ["Select Category"] ,
           multiple: true ,
           max: 5 ,
           options: 
