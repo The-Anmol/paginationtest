@@ -23,6 +23,6 @@ collections:
         "technology" , "travelling" ] } 
     - { label: "Date", name: "date", widget: "datetime" }
     - { label: "Tags", name: "tags", widget: "list", default: ["post" , "another-tag-here" ] }
-    - { label: "Featured Image", name: "image", widget: "image" }
+    - { label: "Featured Image", name: "image", widget: "string" }
     - { label: "Image Caption", name: "imageAlt", widget: "string" } 
     - { label: "Body", name: "body", widget: "markdown" }
