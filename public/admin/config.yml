@@ -19,7 +19,7 @@ collections:
           options:
             - { label: "Chicago", value: "ORD" }
             - { label: "Paris", value: "CDG" }
-            - { label: "Tokyo", value: "HND" }
+            - { label: "Tokyo", value: "HND" },
           }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
