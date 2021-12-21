@@ -21,7 +21,7 @@ layout: "base.njk"
                  <article class="brick entry" data-animate-el>
                     <div class="entry__thumb">
                       <a class="thumb-link">
-                        <img src="{{ News.data.image }}" alt="{{ News.data.imageAlt }}">
+                        <img src="{{ news.data.image }}" alt="{{ news.data.imageAlt }}">
                       </a>
                     </div>
                     <div class="entry__text">
@@ -32,17 +32,17 @@ layout: "base.njk"
                           </span>
                           <span class="byline">
                             By:
-                            <a href="#0">{{ News.data.author }} on {{ News.date | postDate }}</a>
+                            <a href="#0">{{ news.data.author }} on {{ news.date | postDate }}</a>
                           </span>
                         </div>
-                        <h1 class="entry__title"><a href="{{ News.url }} ">{{ News.data.title }}</a></h1>
+                        <h1 class="entry__title"><a href="{{ News.url }} ">{{ news.data.title }}</a></h1>
                       </div>
                       <div class="entry__excerpt">
                         <p>
-                            {{ News.data.desc }}
+                            {{ news.data.desc }}
                         </p>
                       </div>
-                      <a class="entry__more-link" href="{{ News.url }}" >Read More</a>
+                      <a class="entry__more-link" href="{{ news.url }}" >Read More</a>
                     </div>
                   </article>
             {%- endfor -%}
