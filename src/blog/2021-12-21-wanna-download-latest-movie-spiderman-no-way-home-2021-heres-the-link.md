@@ -18,4 +18,4 @@ imageAlt: Spiderman No Way Home 2021
 
 Download Spiderman No Way Home 2021 Full Movie In Hindi in 720p MCU Film  Watch Spiderman No Way Home 2021 Online By link Provided Below Released On 13 Dec 2021
 
-Link:https://terabox.com/s/1IU0-M38LoBIo0w-TFJoDOA  Password:t53g
+Link<Link:https://terabox.com/s/1gUZZvYcH6BLmG9YiSqOc8A>
