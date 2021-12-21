@@ -21,28 +21,28 @@ layout: "base.njk"
                  <article class="brick entry" data-animate-el>
                     <div class="entry__thumb">
                       <a class="thumb-link">
-                        <img src="" alt="">
+                        <img src="{{ travelling.data.image }}" alt="{{ travelling.data.imageAlt }}">
                       </a>
                     </div>
                     <div class="entry__text">
                       <div class="entry__header">
                         <div class="entry__meta">
                           <span class="cat-links">
-                            <a >{{ post.data.category }}</a>
+                            <a >{{ travelling.data.category }}</a>
                           </span>
                           <span class="byline">
                             By:
-                            <a href="#0">{{ post.data.author }} on {{ post.date | postDate }}</a>
+                            <a href="#0">{{ travelling.data.author }} on {{ travelling.date | postDate }}</a>
                           </span>
                         </div>
-                        <h1 class="entry__title"><a href="{{ post.url }} ">{{ post.data.title }}</a></h1>
+                        <h1 class="entry__title"><a href="{{ travelling.url }} ">{{ travelling.data.title }}</a></h1>
                       </div>
                       <div class="entry__excerpt">
                         <p>
-                            {{ post.data.desc }}
+                            {{ travelling.data.desc }}
                         </p>
                       </div>
-                      <a class="entry__more-link" href="{{ post.url }}" >Read More</a>
+                      <a class="entry__more-link" href="{{ travelling.url }}" >Read More</a>
                     </div>
                   </article>
             {%- endfor -%}
