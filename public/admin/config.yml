@@ -17,9 +17,9 @@ collections:
           name: "category" ,
           widget: "select" ,
           options:
-            - { label: "Chicago", value: "ORD" }
-            - { label: "Paris", value: "CDG" }
-            - { label: "Tokyo", value: "HND" },
+            - { label: "Chicago", value: "ORD" } , 
+            - { label: "Paris", value: "CDG" } ,
+            - { label: "Tokyo", value: "HND" } ,
           }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
