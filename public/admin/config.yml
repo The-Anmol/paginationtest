@@ -16,8 +16,11 @@ collections:
       - { label: "Category",
           name: "category" ,
           widget: "select" ,
-          options: ["Fashion","Gaming","Health","Music","Movie","News","Personal Devlopment", "Technology", "Travelling"] ,
-        }
+          options:
+            - { label: "Chicago", value: "ORD" }
+            - { label: "Paris", value: "CDG" }
+            - { label: "Tokyo", value: "HND" }
+          }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Featured Image", name: "image", widget: "image" }
