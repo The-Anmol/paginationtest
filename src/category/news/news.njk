@@ -21,14 +21,14 @@ layout: "base.njk"
                  <article class="brick entry" data-animate-el>
                     <div class="entry__thumb">
                       <a class="thumb-link">
-                        <img src="" alt="">
+                        <img src="{{ News.data.image }}" alt="{{ News.data.imageAlt }}">
                       </a>
                     </div>
                     <div class="entry__text">
                       <div class="entry__header">
                         <div class="entry__meta">
                           <span class="cat-links">
-                            <a >{{ News.data.category }}</a>
+                            <a >{{ news.data.category }}</a>
                           </span>
                           <span class="byline">
                             By:
