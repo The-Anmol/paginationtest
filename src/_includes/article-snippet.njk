@@ -3,24 +3,24 @@
 <article class="brick entry" data-animate-el>
     <div class="entry__thumb">
         <a class="thumb-link">
-            <img src="{{ image }}" alt="{{ imageAlt }}">
+            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
         </a>
     </div>
     <div class="entry__text">
         <div class="entry__header">
             <div class="entry__meta">
                 <span class="cat-links">
-                    <a >{{ category }}</a>
+                    <a >{{ post.data.category }}</a>
                 </span>
                 <span class="byline">
                     By:
-                    <a href="#0">{{ author }} on {{ date | postDate }}</a>
+                    <a href="#0">{{ post.data.author }} on {{ date | postDate }}</a>
                 </span>
             </div>
-            <h1 class="entry__title"><a href="{{ post.url }} ">{{ title }}</a></h1>
+            <h1 class="entry__title"><a href="{{ post.url }} ">{{ post.data.title }}</a></h1>
         </div>
         <div class="entry__excerpt">
-        <p>{{ desc }}</p>
+        <p>{{ post.data.desc }}</p>
         </div>
 </article>
 
