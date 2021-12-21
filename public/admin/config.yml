@@ -4,26 +4,25 @@ backend:
 media_folder: "public/assets/blog"
 public_folder: "/assets/blog"
 collections:
-  - name: "blog"
+  - name: "blog" 
     label: "Blog"
     folder: "src/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Category",
-          name: "category" ,
-          widget: "select" ,
-          options: [ "fashion" , "gaming" , "health" , "movie" , "music" , "news" , "personal-development" , "technology" , "travelling" ]
-      }
-
-}
-
- 
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Image Caption", name: "imageAlt", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    - { label: "Title", name: "title", widget: "string" }
+    - { label: "Description", name: "description", widget: "string" }
+    - { label: "Author", name: "author", widget: "string" }
+    - { label: "Category",
+        name: "category" ,
+        widget: "select" , 
+        options: [ "fashion" , 
+        "gaming" , "health" , 
+        "movie" , "music" , 
+        "news" , "personal-development" ,
+        "technology" , "travelling" ] } 
+    - { label: "Date", name: "date", widget: "datetime" }
+    - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+    - { label: "Featured Image", name: "image", widget: "image" }
+    - { label: "Image Caption", name: "imageAlt", widget: "string" } 
+    - { label: "Body", name: "body", widget: "markdown" }
