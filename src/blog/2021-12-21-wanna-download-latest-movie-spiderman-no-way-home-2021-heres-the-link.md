@@ -6,7 +6,6 @@ category: movie
 date: 2021-12-21T15:57:46.304Z
 tags:
   - posts
-  - movie
 image: /assets/blog/images.jpeg
 imageAlt: Spiderman No Way Home 2021
 description: Download Spiderman No Way Home 2021 Full Movie In Hindi in 720p MCU
