@@ -6,7 +6,7 @@ author: Anmol
 category: movie
 date: 2021-12-22T05:58:39.748Z
 tags:
- - post
+ - posts
  - movie
 image: /assets/blog/haweye-poster.jpeg
 imageAlt: Hawkeye Season 01 2021
