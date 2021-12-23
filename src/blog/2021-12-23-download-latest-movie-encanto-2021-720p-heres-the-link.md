@@ -21,6 +21,4 @@ Download Encanto 2021 Full Movie In Hindi in 720p Animated Watch Encanto 2021 On
 
 Copy Paste This Link in Your Browser's Search bar : -`https://https://terabox.com/s/15GjoCQBZegnjxRqAoyyQTw`
 
-Enjoy Watching Movies ...`3eW3E6EqGrnoe5i0b0Q`
-
-Episode `terabox.com/s/1t-0o`
+Enjoy Watching Movies ...
