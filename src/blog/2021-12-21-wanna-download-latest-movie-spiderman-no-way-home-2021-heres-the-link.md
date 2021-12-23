@@ -5,7 +5,7 @@ author: Anmol
 category: movie
 date: 2021-12-21T15:57:46.304Z
 tags:
-  - post
+  - posts
   - movie
 image: /assets/blog/images.jpeg
 imageAlt: Spiderman No Way Home 2021
