@@ -4,8 +4,7 @@ author: Anmol
 category: movie
 date: 2021-12-23T05:28:46.775Z
 tags:
-  - post
-  - movie
+  - posts
 image: /assets/blog/encanto-poster.jpg
 imageAlt: Encanto Poster
 description: Download Spiderman No Way Home 2021 Full Movie In Hindi in 720p MCU
