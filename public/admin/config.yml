@@ -8,9 +8,10 @@ collections:
     label: "Blog"
     folder: "src/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{filetitle}}"
     fields:
-    - { label: "Title", name: "title", widget: "string" }
+    - { label: "Title For Page", name: "title", widget: "string" }
+    - { label: "Title For File", name: "filetitle", widget: "string" }
     - { label: "Author", name: "author", widget: "string" }
     - { label: "Category",
         name: "category" ,
