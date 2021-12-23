@@ -1,0 +1,116 @@
+  <!DOCTYPE html>
+
+  <html lang="en" class="no-js">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Net Blog | {{ title }} </title>
+
+    <script>
+
+      document.documentElement.classList.remove('no-js');
+
+      document.documentElement.classList.add('js');
+
+    </script>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <link rel="stylesheet" href="/styles.css">
+
+    <link rel="stylesheet" href="/vendor.css">
+
+    </head>
+
+  <body id="top">    
+
+    <div id="page" class="s-pagewrap ss-home">
+            {% include "header.njk" %}      
+
+            <article class="brick entry" data-animate-el>
+
+    <div class="entry__thumb">
+
+        <a class="thumb-link">
+
+            <img src="{{ image }}" alt="{{ imageAlt }}">
+
+        </a>
+
+    </div>
+
+    <div class="entry__text">
+
+        <div class="entry__header">
+
+            <div class="entry__meta">
+
+                <span class="cat-links">
+
+                    <a >{{ category }}</a>
+
+                </span>
+
+                <span class="byline">
+
+                    By:
+
+                    <a href="#0">{{ author }} on {{ date }}</a>
+
+                </span>
+
+            </div>
+
+            <h1 class="entry__title"><a href="">{{ title }}</a></h1>
+
+        </div>
+
+        <div class="entry__excerpt">
+
+            <p>
+
+                {{ content | safe }}
+
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+
+            {% include "footer.njk" %}
+
+          </section>
+
+        <script src="/plugins.js"></script>
+
+        <script src="/main.js"></script>
+
+        <script> if (window.netlifyIdentity) { 
+
+            window.netlifyIdentity.on("init", user => { 
+
+              if (!user) {
+
+                window.netlifyIdentity.on("login", () => {
+
+                  document.location.href = "./admin/"; 
+
+                });
+
+              } 
+
+            });
+
+          }
+
+        </script>
+
+        </body>
+
+      </html>
