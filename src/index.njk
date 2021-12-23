@@ -18,63 +18,7 @@ layout: "base.njk"
               <div class="masonry">
                 <div class="bricks-wrapper" data-animate-block>
                   <div class="grid-sizer"></div>
-                  {%- for post in collections.posts | reverse -%}
-
-            
-
-<article class="brick entry" data-animate-el>
-
-    <div class="entry__thumb">
-
-        <a class="thumb-link">
-
-            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
-
-        </a>
-
-    </div>
-
-    <div class="entry__text">
-
-        <div class="entry__header">
-
-            <div class="entry__meta">
-
-                <span class="cat-links">
-
-                    <a href="/category/{{ post.data.category }}/" >{{ post.data.category }}</a>
-
-                </span>
-
-                <span class="byline">
-
-                    By:
-
-                    <a href="#0">{{ post.data.author }} on {{ post.date | postDate }}</a>
-
-                </span>
-
-            </div>
-
-            <h1 class="entry__title"><a href="{{ post.url }} ">{{ post.data.title }}</a></h1>
-
-        </div>
-
-        </div>
-
-        <div class="entry__excerpt">
-
-            <p>{{ post.data.desc }}</p>
-
-        </div>
-
-        <a class="entry__more-link" href="{{ post.url }}">Read More</a>
-
-    </div>                         
-
-</article>
-
-{%- endfor -%}
+                  {% include 'article-snippet.njk' %}
                 </div>
               </div>
               <div class="row pagination">
