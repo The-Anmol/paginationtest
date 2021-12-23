@@ -22,7 +22,7 @@ collections:
         "news" , "personal-development" ,
         "technology" , "travelling" ] } 
     - { label: "Date", name: "date", widget: "datetime" }
-    - { label: "Tags", name: "tags", widget: "string" default: ["posts","another-tag-here"]}
+    - { label: "Tags", name: "tags", widget: "string", default: ["posts","another-tag-here"]}
     - { label: "Featured Image", name: "image", widget: "image" }
     - { label: "Image Caption", name: "imageAlt", widget: "string" } 
     - { label: "Body", name: "body", widget: "markdown" }
