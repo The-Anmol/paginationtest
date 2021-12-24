@@ -19,6 +19,18 @@ description: Download Spiderman No Way Home 2021 Full Movie In Hindi in 720p MCU
 
 Download Encanto 2021 Full Movie In Hindi in 720p Animated Watch Encanto 2021 Online By link Provided Below Released On 24 November 2021
 
+**To Download The Movie Follow The Instructions** :-
+
+**Step 1** - Press and Hold the link, Then Click on Open
+
+**Step 2** - Press The Download Button Appearing In The Bottom Left Corner, **Don't Click on Save !**
+
+**Step 3** - The Sign In to Download Use Sign I using Google ( It's Easy )
+
+
+
+
+
 Dual Audio  : -`https://terabox.com/s/15GjoCQBZegnjxRqAoyyQTw`
 
 English only with Hindi Subtitles :-
