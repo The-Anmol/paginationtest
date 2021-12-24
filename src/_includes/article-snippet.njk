@@ -1,3 +1,4 @@
+{% set limitValue = "2" %}
 {% for post in collections.posts | reverse | limit(limitValue) %}
 <article class="brick entry" data-animate-el>
     <div class="entry__thumb">
