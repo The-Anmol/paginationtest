@@ -1,5 +1,5 @@
-{%- for post in collections.posts | range(0,2) -%}
-            
+{%- for post in collections.posts | reverse -%}
+            {%- for post in range(0,1) -%}
 <article class="brick entry" data-animate-el>
     <div class="entry__thumb">
         <a class="thumb-link">
@@ -22,4 +22,5 @@
         <a class="entry__more-link" href="{{ post.url }}">Read More</a>
     </div>                         
 </article>
+{%- endfor -%}
 {%- endfor -%}
