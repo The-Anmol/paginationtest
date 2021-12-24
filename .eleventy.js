@@ -4,7 +4,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('./src');
   
-  
+  eleventyConfig.addNunjucksFilter("limit", function(array, limit) {
+    return array.slice(0, limit); 
+ });
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
