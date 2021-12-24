@@ -1,5 +1,5 @@
 ---
-title: "Pegasus : Google Explains How Pegasus Hacked Iphones"
+title: "Pegasus : Google Explains How Pegasus Spy On Iphones"
 filetitle: pegasus-spyware
 author: Anmol
 category: news
