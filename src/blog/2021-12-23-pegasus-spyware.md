@@ -7,6 +7,7 @@ date: 2021-12-23T16:35:35.628Z
 tags:
   - posts
   - news
+  - technology
 image: /assets/blog/pegasus-spyware-01.jpeg
 imageAlt: Pegasus Spyware
 ---
