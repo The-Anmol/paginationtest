@@ -1,4 +1,4 @@
-{%- for post in collections.posts | limit(2) -%}
+{%- for post in collections.posts | range(0,2) -%}
             
 <article class="brick entry" data-animate-el>
     <div class="entry__thumb">
