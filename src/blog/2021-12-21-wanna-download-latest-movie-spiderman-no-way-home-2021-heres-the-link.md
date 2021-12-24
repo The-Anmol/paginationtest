@@ -21,13 +21,11 @@ Download Spiderman No Way Home 2021 Full Movie In Hindi in 720p MCU Film  Watch 
 
 To Download The Movie Follow The Instructions :-
 
-**Step 1** - Press and Hold the link, Then Click on Open 
+**Step 1** - Press and Hold the link, Then Click on Open
 
-**Step 2** - Press The Download Button Appearing In The Bottom Left Corner, **Don't Click on Save !**
+**Step 2** - Press The Download Button Appearing In      The Bottom Left Corner, **Don't Click on Save !**
 
-**Step 3** - The Sign In to Dowload 
-
-Use Sign I using Google ( It's Easy  )
+**Step 3** - The Sign In to Download Use Sign I using Google ( It's Easy  )
 
 
 
