@@ -15,4 +15,10 @@ In the smartphone industry, we have basically two camps, Android camp, and iOS 
 
 Recently, ZTE Axon 30 Ultra Space Edition was officially released. This high-end flagship Android smartphone comes with 18GB of RAM and 1TB of internal storage. This also indicates that the RAM of mainstream Android flagship smartphones is now pursuing 20GB. In fact, with the new memory expansion technology, a couple of Android flagships already supports 20GB of RAM.
 
-Simply put, the highest RAM capacity on an Android smartphone is 18GB. In contrast, the largest RAM capacity on an iPhone is just 6GB. Thus, the Android camp is three times ahead of iOS in terms of RAM size. Why is the RAM of Android phones getting bigger? From 8GB to 12GB and then to 18GB, Apple phones only need half or less of Android. Is Apple falling behind or Cook is “stingy”? In fact, the real reason is not as simple as saving costs.
+Simply put, the highest RAM capacity on an Android smartphone is 18GB. In contrast, the largest RAM capacity on an iPhone is just 6GB. Thus, the Android camp is three times ahead of iOS in terms of RAM size. Why is the RAM of Android phones getting bigger? From 8GB to 12GB and then to 18GB, Apple phones only need half or less of Android. Is Apple falling behind or Cook is “stingy”? In fact, the real reason is not as simple as saving costs.Here are the top three reasons why iOS RAm is low. However, before we look at the reasons, let us talk about RAM.
+
+
+
+**What are RAM and ROM?**
+
+Before comparing the differences between the memory management mechanisms of the iOS and Android systems, we need to understand the meaning behind some professional terms. RAM (Random Access Memory) is also called running memory. The size of RAM directly determines how many programs you can open in the background of the phone. On the other hand, ROM (Read-Only Memory) is called internal storage. The ROM determines how many programs you can install on your phone, and how many photos and songs you can store.
