@@ -1,5 +1,5 @@
 ---
-title: TOP 3 REASONS WHY ANDROID IS AT 18GB RAM AND IOS IS AT 6GB RAM
+title: Top 3 Reasons Why Android is at 18GB RAM & IOS is at 6GB RAM
 filetitle: android-vs-ios
 author: Anmol
 category: technology
