@@ -1,0 +1,9 @@
+article{
+    background-color: red;
+}
+article.change{
+    background: green;
+}
+.change{
+    background-color: green;
+}
