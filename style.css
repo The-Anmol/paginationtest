@@ -1,9 +1,13 @@
 article{
     background-color: red;
+    display: none;
 }
 article.change{
     background: green;
 }
 .change{
     background-color: green;
+}
+article.show{
+    display: block;
 }
